@@ -19,54 +19,22 @@ class ViewController: UIViewController {
 //    プラスボタンが押された時の動作を設定
     @IBAction func plus(){
         number = number + 1
-        label.text = String(number)
-        
-        if number >= 10{
-            label.textColor = UIColor.red
-        }else if number > 0 && number <= 10{
-            label.textColor = UIColor.blue
-        }else{
-            label.textColor = UIColor.black
-        }
+        self.textColor()
     }
 //    マイナスボタンが押された時の動作を設定
     @IBAction func minus(){
         number = number - 1
-        label.text = String(number)
-        
-        if number >= 10{
-            label.textColor = UIColor.red
-        }else if number > 0 && number <= 10{
-            label.textColor = UIColor.blue
-        }else{
-            label.textColor = UIColor.black
-        }
+        self.textColor()
     }
 //    かけるボタンが押された時の動作を設定
     @IBAction func times(){
         number = number * 2
-        label.text = String(number)
-        
-        if number >= 10{
-            label.textColor = UIColor.red
-        }else if number > 0 && number <= 10{
-            label.textColor = UIColor.blue
-        }else{
-            label.textColor = UIColor.black
-        }
+        self.textColor()
     }
 //    わるボタンが押された時の動作を設定
     @IBAction func divided(){
         number = number / 2
-        label.text = String(number)
-        
-        if number >= 10{
-            label.textColor = UIColor.red
-        }else if number > 0 && number <= 10{
-            label.textColor = UIColor.blue
-        }else{
-            label.textColor = UIColor.black
-        }
+        self.textColor()
     }
 //    クリアボタンが押された時の動作を設定
     @IBAction func clear(){
@@ -75,6 +43,17 @@ class ViewController: UIViewController {
         label.textColor = UIColor.black
     }
     
+    func textColor(){
+        label.text = String(number)
+        
+        if number >= 10{
+            label.textColor = UIColor.red
+        }else if number > 0 && number <= 10{
+            label.textColor = UIColor.blue
+        }else{
+            label.textColor = UIColor.black
+        }
+    }
     
 
 

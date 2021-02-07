@@ -38,7 +38,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
-                                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgD-i0-xgU"/>
+                                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="iuM-pM-Uhu"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw2-fc-ZyV">
@@ -47,7 +47,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                                 <state key="normal" title="-"/>
                                                 <connections>
-                                                    <action selector="minus" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWJ-CE-RvO"/>
+                                                    <action selector="minus" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnz-Tu-I71"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -61,7 +61,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                                 <state key="normal" title="×"/>
                                                 <connections>
-                                                    <action selector="times" destination="BYZ-38-t0r" eventType="touchUpInside" id="CA9-mJ-AQf"/>
+                                                    <action selector="times" destination="BYZ-38-t0r" eventType="touchUpInside" id="Haf-Si-6uz"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs5-oe-mQU">
@@ -70,7 +70,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                                 <state key="normal" title="÷"/>
                                                 <connections>
-                                                    <action selector="divided" destination="BYZ-38-t0r" eventType="touchUpInside" id="AvO-s6-CpX"/>
+                                                    <action selector="divided" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcw-5G-UX1"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -85,7 +85,7 @@
                                     <color key="titleColor" red="1" green="0.21423044799999999" blue="0.3215691745" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLT-6v-p92"/>
+                                    <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nI-GP-1a3"/>
                                 </connections>
                             </button>
                         </subviews>
