@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-//    プラスボタンが押された時の動作
+//    プラスボタンが押された時の動作を設定
     @IBAction func plus(){
         number = number + 1
         label.text = String(number)
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             label.textColor = UIColor.black
         }
     }
-//    マイナスボタンが押された時の動作
+//    マイナスボタンが押された時の動作を設定
     @IBAction func minus(){
         number = number - 1
         label.text = String(number)
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             label.textColor = UIColor.black
         }
     }
-//    かけるボタンが押された時の動作
+//    かけるボタンが押された時の動作を設定
     @IBAction func times(){
         number = number * 2
         label.text = String(number)
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
             label.textColor = UIColor.black
         }
     }
-//    わるボタンが押された時の動作
+//    わるボタンが押された時の動作を設定
     @IBAction func divided(){
         number = number / 2
         label.text = String(number)
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             label.textColor = UIColor.black
         }
     }
-//    クリアボタンが押された時の動作
+//    クリアボタンが押された時の動作を設定
     @IBAction func clear(){
         number = 0
         label.text = String(number)
